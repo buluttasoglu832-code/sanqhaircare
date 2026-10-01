@@ -3,65 +3,115 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SANQ Hair Care</title>
+<title>SANQ Premium Care</title>
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#111;
-    color:white;
+background:#050505;
+color:white;
 }
+
 .hero{
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background:linear-gradient(135deg,#111,#2b0a3d);
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:50px;
+background:
+radial-gradient(circle at 20% 20%,rgba(255,193,7,.20),transparent 30%),
+radial-gradient(circle at 80% 60%,rgba(255,193,7,.12),transparent 30%),
+#050505;
 }
-h1{
-    font-size:70px;
-    margin:0;
+
+.hero-content{
+max-width:1200px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
 }
-p{
-    font-size:22px;
+
+.hero-text h1{
+font-size:90px;
+letter-spacing:5px;
 }
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:15px 30px;
-    background:#a855f7;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
+
+.hero-text h2{
+color:#ffc107;
+margin-top:10px;
+font-size:30px;
 }
-.section{
-    padding:80px 20px;
-    text-align:center;
+
+.hero-text p{
+margin-top:20px;
+font-size:20px;
+line-height:1.8;
+color:#d7d7d7;
 }
+
+.hero-btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#ffc107;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:50px;
+}
+
+.hero-image img{
+width:500px;
+max-width:100%;
+border-radius:20px;
+}
+
 </style>
 </head>
+
 <body>
 
 <section class="hero">
-<h1>SANQ Hair Care</h1>
-<p>Healthy Hair, Confident You</p>
-<a href="#about" class="btn
 
-<section id="about" class="section">
-<h2>Hakkımızda</h2>
-<p>SANQ Hair Care saç bakımına modern ve yenilikçi bir yaklaşım sunar.</p>
-</section>
+<div class="hero-content">
 
-<section class="section">
-<h2>Ürünlerimiz</h2>
-<p>Yakında ürünlerimiz burada yer alacak.</p>
-</section>
+<div class="hero-text">
 
-<section class="section">
-<h2>İletişim</h2>
-<p>sanqhaircare.com</p>
+<h1>SANQ</h1>
+
+<h2>Güçlü Saçlar, Güçlü Sen.</h2>
+
+<p>
+
+Premium saç bakım ürünleriyle
+saçlarınıza hak ettiği değeri verin.
+
+</p>
+
+#
+
+Ürünleri Keşfet
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+SANQ kadın görsel.png
+
+</div>
+
+</div>
+
 </section>
 
 </body>
