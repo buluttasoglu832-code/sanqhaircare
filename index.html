@@ -11,11 +11,11 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:Arial, sans-serif;
 }
 
 body{
-background:#050505;
+background:#0a0a0a;
 color:white;
 }
 
@@ -23,45 +23,39 @@ color:white;
 min-height:100vh;
 display:flex;
 align-items:center;
-justify-content:center;
-padding:50px;
+justify-content:space-between;
+padding:60px 10%;
 background:
-radial-gradient(circle at 20% 20%,rgba(255,193,7,.20),transparent 30%),
-radial-gradient(circle at 80% 60%,rgba(255,193,7,.12),transparent 30%),
-#050505;
+radial-gradient(circle at 20% 20%, rgba(255,193,7,0.20), transparent 30%),
+radial-gradient(circle at 80% 40%, rgba(255,193,7,0.10), transparent 30%),
+#0a0a0a;
 }
 
-.hero-content{
-max-width:1200px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:60px;
+.hero-text{
+max-width:600px;
 }
 
 .hero-text h1{
-font-size:90px;
-letter-spacing:5px;
+font-size:80px;
+margin-bottom:15px;
 }
 
 .hero-text h2{
-color:#ffc107;
-margin-top:10px;
-font-size:30px;
+color:#FFC107;
+margin-bottom:20px;
 }
 
 .hero-text p{
-margin-top:20px;
 font-size:20px;
 line-height:1.8;
-color:#d7d7d7;
+color:#d6d6d6;
 }
 
-.hero-btn{
+.btn{
 display:inline-block;
 margin-top:30px;
 padding:15px 35px;
-background:#ffc107;
+background:#FFC107;
 color:black;
 text-decoration:none;
 font-weight:bold;
@@ -69,19 +63,37 @@ border-radius:50px;
 }
 
 .hero-image img{
-width:500px;
+width:450px;
 max-width:100%;
-border-radius:20px;
+border-radius:25px;
+box-shadow:0 0 30px rgba(255,193,7,.4);
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+padding-top:40px;
+}
+
+.hero-text h1{
+font-size:55px;
+}
+
+.hero-image{
+margin-top:40px;
+}
+
 }
 
 </style>
+
 </head>
 
 <body>
 
 <section class="hero">
-
-<div class="hero-content">
 
 <div class="hero-text">
 
@@ -90,89 +102,19 @@ border-radius:20px;
 <h2>Güçlü Saçlar, Güçlü Sen.</h2>
 
 <p>
-
-Premium saç bakım ürünleriyle
-saçlarınıza hak ettiği değeri verin.
-
+Premium saç bakım ürünleriyle saçlarınıza hak ettiği değeri verin.
+Sağlık, bakım ve lüks deneyimi tek şişede.
 </p>
 
 #
-
-Ürünleri Keşfet
-
+Ürünleri İncele
 </a>
 
 </div>
 
 <div class="hero-image">
 
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SANQ Premium Care</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0a0a0a;
-      color: white;
-    }
-    .hero {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 50px 10%;
-      min-height: 100vh;
-    }
-    .hero-text h1 {
-      font-size: 64px;
-      margin: 0 0 20px 0;
-    }
-    .hero-text p {
-      font-size: 20px;
-      margin: 0 0 30px 0;
-      color: #e0e0e0;
-    }
-    .hero-text a {
-      display: inline-block;
-      background: #FFD700;
-      color: black;
-      padding: 15px 30px;
-      border-radius: 30px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .hero-image img {
-      max-width: 500px;
-      width: 100%;
-      border-radius: 20px;
-      box-shadow: 0 0 20px #FFD700;
-    }
-  </style>
-</head>
-<body>
-  <div class="hero">
-    <div class="hero-text">
-      <h1>SANQ</h1>
-      <p>Güçlü Saçlar, Güçlü Sen. Premium Hair Care</p>
-      #urunlerÜrünleri İncele</a>
-    </div>
-    <div class="hero-image">
-      SANQ%20kadın%20görsel.png
-    </div>
-  </div>
-</body>
-</html>
-
-
-
-
-</div
-
-
-</div>
+SANQ kadın görsel.png
 
 </div>
 
